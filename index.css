@@ -193,14 +193,18 @@ body {
     justify-content: space-evenly;
   }
   
-
-  .flex-item {
-    width: 33.3%; /*NEEDS TO BE INDIVIDUAL PER COLUMN COUNT*/
-    
+  .flex-item-2 {
+    width: 50%;
   }
+
+  .flex-item-3 {
+    width: 33.3%; 
+  }
+
+  
   
   @media screen and (max-width: 991px){
-    .flex-item {
+    .flex-item-3 {
       width: 100% !important;
     }
     
