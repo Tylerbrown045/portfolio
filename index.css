@@ -169,8 +169,6 @@ body {
     background-color: #032236;
   }
 
-
-
   section {
     padding-top: 150px;
     padding-right: 40px;
@@ -186,7 +184,29 @@ body {
     display: flex;
   }
 
-  @media screen and (min-width: 700px) {
+
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+
+  .flex-item {
+    width: 33.3%; /*NEEDS TO BE INDIVIDUAL PER COLUMN COUNT*/
+    
+  }
+  
+  @media screen and (max-width: 991px){
+    .flex-item {
+      width: 100% !important;
+    }
+    
+  }
+
+  @media screen and (min-width: 991px) {
     #navbar-toggle,
     #navbar-toggle[aria-expanded='true'] {
       display: none;
