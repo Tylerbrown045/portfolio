@@ -19,6 +19,22 @@ body {
     padding: 0;
   }
   
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  #hero-subheader {
+    font-size: 22px;
+  }
+
   .container {
     max-width: 1000px;
     padding: 0 1.4rem;
@@ -31,7 +47,7 @@ body {
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    height: 120px;
+    height: 80px;
     background-color: #032236;
   }
 
@@ -177,16 +193,33 @@ body {
     margin: 0 auto;
   }
 
+  footer {
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    margin: 0 auto;
+  }
+
   #hero-buttons{
     text-align: left;
     flex-direction: row;
     display: flex;
   }
 
+  #hero-banner {
+    color: white;
+  }
+
+  #services {
+    color: white;
+  }
+
   #hero {
     background-image: linear-gradient(rgba(3,34,54,0.5),rgba(3,34,54,0.5)),url("/images/Pexels-Photo-by-Sean-Whang-1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 200px;
   }
 
   .inner-section {
@@ -215,13 +248,105 @@ body {
     width: 33.3%; 
   }
 
+  .flex-button-container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .flex-button-2 {
+    margin-top: 50px;
+  }
+
+  .button-solid-blue {
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    background-color: #032236;
+    border: 1px solid #032236;
+    padding: 16px 25.6px;
+    
+  }
+
+  .button-cta {
+    margin-top: 20px;
+  }
   
+  .button-hollow-blue {
+    border-top-color: #032236;
+    border-right-color: #032236;
+    border-bottom-color: #032236;
+    border-left-color: #032236;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(3,34,54,0);
+    border: 1px solid rgba(3,34,54,0);
+    padding: 15px 24px;
+  }
+
+  #hero-buttons a {
+    color: #ffffff;
+    text-decoration: none;
+  }
   
+  #hero-buttons a:hover {
+    color: #d2cb95;
+    text-decoration: underline;
+  }
+
+  #resume {
+    background-color: #282828;
+    color: white;
+  }
+
+  #services-header {
+    text-align: center;
+  }
+
+  #services-subheader {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #portfolio-header {
+    text-align: center;
+  }
+
+  #services-items div{
+    padding-bottom: 30px;
+  }
+
   @media screen and (max-width: 991px){
+    h1{
+      font-size: 38px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+    #hero{
+      padding-top: 150px;
+    }
     .flex-item-3 {
       width: 100% !important;
     }
-    
+    .flex-item-2 {
+      width: 100% !important;
+    }
+    #projects-grid {
+      text-align: center;
+    }
+
   }
 
   @media screen and (min-width: 991px) {

@@ -11,7 +11,7 @@
     <header id="navbar">
         <nav class="navbar-container container">
           <a href="/" class="home-link">
-            <div class="navbar-logo"></div>Tyler Brown Web Development and Design
+            <div class="navbar-logo"></div>
           </a>
           <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
             <span class="icon-bar"></span>
@@ -31,11 +31,15 @@
     </header>
     <section id="hero">
         <div class="inner-section" id="hero-banner">
-            <h1>Tyler Brown Web Design<br></h1>
-            <div>Combining Technique and Design <br>for a Better User Experience</div>
-            <div id="hero-buttons">
-                <a href="#portfolio" target="_self">View Projects<br></a>
-                <a href="#resume" target="_self">Contact Me<br></a>
+            <h1>Tyler Brown<br> Web Development<br></h1>
+            <div id="hero-subheader">Combining Technique and Design <br>for a Better User Experience</div>
+            <div class="flex-button-container" id="hero-buttons">
+                <div class="flex-button-2">
+                    <a class="button-cta button-solid-blue" href="#portfolio" target="_self">View Projects<br></a>
+                </div>
+                <div class="flex-button-2">
+                    <a class="button-cta button-hollow-blue" href="#resume" target="_self">Contact Me<br></a>
+                </div>
             </div>
         </div>
     </section>
@@ -47,9 +51,9 @@
     </section>
     <section id="services">
         <div class="inner-section container-wrap">
-            <h2>What I do</h2>
-            <div>I create web designs with a focus on user experience and use my experience with front-end devleopment to do so. This is my wheelhouse:</div>
-            <div class="flex-container">
+            <h2 id="services-header">What I do</h2>
+            <div id="services-subheader">I create web designs with a focus on user experience and use my experience with front-end devleopment to do so. This is my wheelhouse:</div>
+            <div id="services-items" class="flex-container">
                 <div class="flex-item-3">
                     <h3>Web Development</h3>
                     <div>I have experience in creating sites using plain HTML/CSS, utilizing flexbox and other responsive technologies. I also have experience in creating custom marketing emails from HTML/CSS.</div>
@@ -67,48 +71,27 @@
     </section>
     <section id="portfolio">
         <div class="inner-section">
-            <h2>My Projects<br></h2>
+            <h2 id="portfolio-header">My Projects<br></h2>
             <div class="container-wrap">
-                <div class="flex-container">
-                    <div class="flex-item-3">
+                <div id="projects-grid" class="flex-container">
+                    <div class="project-card flex-item-3">
                         <a href="" target="_blank">
                             <div>
-                                <div>
-                                    <div>
-                                        <img alt="" src="http://fpoimg.com/300x250?text=Preview">
-                                    </div>
-                                    <div>
-                                        <h3>A-1 Printing Site Design Overhaul<br></h3>
-                                    </div>          
-                                </div>
+                                <h3>A-1 Printing Site Design Overhaul</h3>
                             </div>
                         </a>  
                     </div>
-                    <div class="flex-item-3">
+                    <div class="project-card flex-item-3">
                         <a href="" target="_blank">
                             <div>
-                                <div>
-                                    <div>
-                                        <img alt="" src="http://fpoimg.com/300x250?text=Preview">
-                                    </div>
-                                    <div>
-                                        <h3>Trucking Site Mockup<br></h3>
-                                    </div>          
-                                </div>
+                                <h3>Trucking Site Mockup<br></h3>
                             </div>
                         </a>
                     </div>
-                    <div class="flex-item-3">
+                    <div class="project-card flex-item-3">
                         <a href="" target="_blank">
                             <div>
-                                <div>
-                                    <div>
-                                        <img alt="" src="http://fpoimg.com/300x250?text=Preview">
-                                    </div>
-                                    <div>
-                                        <h3>UX Redesign Project<br></h3>
-                                    </div>          
-                                </div>
+                                <h3>UX Redesign Project<br></h3>
                             </div>
                         </a>
                     </div>
@@ -116,15 +99,15 @@
             </div>
         </div>
     </section>
-    <section id="resume">
+    <footer id="resume">
             <div class="inner-section flex-container">
                 <div class="flex-item-2">
-                    <h1>View My Resume<br></h1>
+                    <h3>View My Resume<br></h3>
                     <div>If you are interested in learning more about my qualifications before contacting me, you can view my resume by clicking the button below.<br></div>
-                    <a href="" target="_blank">View Resume<br></a>
+                    <a class="button-cta button-solid-blue" href="" target="_blank">View Resume<br></a>
                 </div>
                 <div class="flex-item-2">
-                    <h1>Contact Me<br></h1>
+                    <h3>Contact Me<br></h3>
                     <div>If you are interested in working with me or are looking to hire, feel free to contact me.<br></div>
                     <div>LinkedIn:<br></div>
                     <a href="http://linkedin.com/in/tylerhbrown0457/" target="_blank">
@@ -132,16 +115,7 @@
                     </a>
                 </div>
             </div>
-    </section>
-    <section>
-        <div>
-            <div>
-                <a href="linkedin.com/in/tylerhbrown0457/" target="_blank">
-                    <svg><use xlink:href="#oxy-social-icons-icon-linkedin-blank"></use></svg>
-                </a>
-            </div>
-        </div>
-    </section>
+        </footer>
     <script src="index.js"></script>
 </body>
 </html>
