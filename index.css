@@ -3,8 +3,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #032236;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -21,6 +20,7 @@ body {
   
   h1 {
     font-size: 70px;
+    font-weight: 700;
   }
 
   h2 {
@@ -29,6 +29,14 @@ body {
 
   h3 {
     font-size: 25px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  a {
+    color: white;
   }
 
   #hero-subheader {
@@ -47,7 +55,7 @@ body {
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    height: 80px;
+    height: 100px;
     background-color: #032236;
   }
 
@@ -89,11 +97,7 @@ body {
   }
 
   .navbar-logo {
-    background-color: var(--navbar-text-color-focus);
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-inline-start: 0.5em;
+    max-width: 100px;
   }
 
   #navbar-toggle {
@@ -219,7 +223,7 @@ body {
     background-image: linear-gradient(rgba(3,34,54,0.5),rgba(3,34,54,0.5)),url("/images/Pexels-Photo-by-Sean-Whang-1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 150px;
   }
 
   .inner-section {
@@ -228,7 +232,7 @@ body {
   }
 
   #services {
-    background-image: linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.77)),url("/images/services.png");
+    background-image: linear-gradient(rgba(0,0,0,0.88),rgba(0,0,0,0.88)),url("/images/services.png");
   }
 
 
@@ -320,6 +324,14 @@ body {
   #resume .flex-item-2 {
     padding: 0 50px;
   }
+
+  #project-card {
+    background-color: #b3bcc9;
+    margin: 0 20px;
+    border-radius: 10px;
+    
+  }
+  
   @media screen and (max-width: 991px){
     h1{
       font-size: 38px;
