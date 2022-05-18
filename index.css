@@ -366,6 +366,10 @@ body {
     margin-top: 35px;
   }
 
+  #linkedin-link-text:hover {
+    font-weight: bold;
+  }
+
   #resume .flex-item-2 {
     padding: 0 35px;
   }
