@@ -268,6 +268,15 @@ body {
     margin-top: 50px;
   }
 
+  .button-cta {
+    margin-top: 20px;
+  }
+
+  .button-cta:hover {
+    text-decoration: none;
+    color: #6bbadf;
+  }
+
   .button-solid-blue {
     border-radius: 0px;
     text-transform: uppercase;
@@ -280,26 +289,26 @@ body {
   }
 
   .button-solid-blue:hover {
-    background-color: rgba(3,34,54,0);
     border: 2px solid #032236;
+    background-color: #032236;
     padding: 15px 24px;
     text-decoration: none;
-
   }
 
-  .button-cta {
-    margin-top: 20px;
-  }
-
-  .button-cta:hover {
+  .button-solid-lightblue {
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    background-color: #6bbadf;
+    border: 2px solid #6bbadf;
+    padding: 15px 24px;
     text-decoration: none;
-    color: #6bbadf;
+    color: #032236;
   }
 
-  #resume-button .button-cta:hover {
-    /*background-color: white;
-    color: #032236;*/
-    background-color: rgba(3,34,54,0);
+  .button-solid-lightblue:hover {
+    background-color: #032236;
     border: 2px solid #032236;
     padding: 15px 24px;
     text-decoration: none;
@@ -313,7 +322,6 @@ body {
     border: 2px solid #032236;
     padding: 15px 24px;
     text-decoration: none;
-
   }
 
   .button-hollow-blue:hover {
@@ -323,10 +331,6 @@ body {
     text-decoration: none;
   }
 
-  #hero-buttons a {
-    color: #ffffff;
-    text-decoration: none;
-  }
   
   #hero-buttons a:hover {
     color: #6bbadf;
