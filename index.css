@@ -54,7 +54,7 @@ body {
   }
 
   .container {
-    max-width: 1000px;
+    max-width: 1120px;
     padding: 0 1.4rem;
     margin: 0 auto;
   }
@@ -293,11 +293,16 @@ body {
 
   .button-cta:hover {
     text-decoration: none;
+    color: #6bbadf;
   }
 
   #resume-button .button-cta:hover {
-    background-color: white;
-    color: #032236;
+    /*background-color: white;
+    color: #032236;*/
+    background-color: rgba(3,34,54,0);
+    border: 2px solid #032236;
+    padding: 15px 24px;
+    text-decoration: none;
   }
 
   .button-hollow-blue {
@@ -324,10 +329,10 @@ body {
   }
   
   #hero-buttons a:hover {
-    color: #d2cb95;
+    color: #6bbadf;
   }
 
-  #resume {
+  #contact {
     background-color: #282828;
     color: white;
   }
@@ -350,11 +355,11 @@ body {
   }
 
   #resume-button {
-    margin-top: 50px;
+    margin-top: 35px;
   }
 
   #linkedin-link {
-    margin-top: 50px;
+    margin-top: 35px;
   }
 
   #resume .flex-item-2 {
@@ -372,6 +377,10 @@ body {
 
   .card-container {
     padding: 17px 17px;
+  }
+
+  .card-container h5 {
+    padding-bottom: 10px;
   }
 
   #project-card a {
@@ -404,13 +413,17 @@ body {
     .flex-item-3 {
       width: 100% !important;
     }
+    #projects-grid .flex-item-3 {
+      width: 55% !important;
+      margin-bottom: 50px;
+    }
     .flex-item-2 {
       width: 100% !important;
     }
     #projects-grid {
       text-align: center;
     }
-    #resume .flex-item-2 {
+    #contact .flex-item-2 {
       margin-bottom: 50px;
     }
 
