@@ -224,13 +224,13 @@ body {
 
   #services {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("/images/services.png");
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/services.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   #hero {
-    background-image: linear-gradient(rgba(3,34,54,0.5),rgba(3,34,54,0.5)),url("/images/Pexels-Photo-by-Sean-Whang-1.png");
+    background-image: linear-gradient(rgba(3,34,54,0.5),rgba(3,34,54,0.5)),url("images/Pexels-Photo-by-Sean-Whang-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 150px;
